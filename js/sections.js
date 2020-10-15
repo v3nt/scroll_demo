@@ -1,4 +1,3 @@
-
 /**
  * scrollVis - encapsulates
  * all the code for the visualization
@@ -35,54 +34,57 @@ var scrollVis = function () {
   // We will set the domain when the
   // data is processed.
   // @v4 using new scale names
-  var xBarScale = d3.scaleLinear()
-    .range([0, width]);
+  var xBarScale = d3.scaleLinear().range([0, width]);
 
   // The bar chart display is horizontal
   // so we can use an ordinal scale
   // to get width and y locations.
   // @v4 using new scale type
-  var yBarScale = d3.scaleBand()
+  var yBarScale = d3
+    .scaleBand()
     .paddingInner(0.08)
     .domain([0, 1, 2])
     .range([0, height - 50], 0.1, 0.1);
 
   // Color is determined just by the index of the bars
-  var barColors = { 0: '#008080', 1: '#399785', 2: '#5AAF8C' };
+  var barColors = { 0: "#008080", 1: "#399785", 2: "#5AAF8C" };
 
   // The histogram display shows the
   // first 30 minutes of data
   // so the range goes from 0 to 30
   // @v4 using new scale name
-  var xHistScale = d3.scaleLinear()
+  var xHistScale = d3
+    .scaleLinear()
     .domain([0, 30])
     .range([0, width - 20]);
 
   // @v4 using new scale name
-  var yHistScale = d3.scaleLinear()
-    .range([height, 0]);
+  var yHistScale = d3.scaleLinear().range([height, 0]);
 
   // The color translation uses this
   // scale to convert the progress
   // through the section into a
   // color value.
   // @v4 using new scale name
-  var coughColorScale = d3.scaleLinear()
+  var coughColorScale = d3
+    .scaleLinear()
     .domain([0, 1.0])
-    .range(['#008080', 'red']);
+    .range(["#008080", "red"]);
 
   // You could probably get fancy and
   // use just one axis, modifying the
   // scale, but I will use two separate
   // ones to keep things easy.
   // @v4 using new axis name
-  var xAxisBar = d3.axisBottom()
-    .scale(xBarScale);
+  var xAxisBar = d3.axisBottom().scale(xBarScale);
 
   // @v4 using new axis name
-  var xAxisHist = d3.axisBottom()
+  var xAxisHist = d3
+    .axisBottom()
     .scale(xHistScale)
-    .tickFormat(function (d) { return d + ' min'; });
+    .tickFormat(function (d) {
+      return d + " min";
+    });
 
   // When scrolling to a new section
   // the activation function for that
@@ -104,21 +106,21 @@ var scrollVis = function () {
   var chart = function (selection) {
     selection.each(function (rawData) {
       // create svg and give it a width and height
-      svg = d3.select(this).selectAll('svg').data([wordData]);
-      var svgE = svg.enter().append('svg');
+      svg = d3.select(this).selectAll("svg").data([wordData]);
+      var svgE = svg.enter().append("svg");
       // @v4 use merge to combine enter and existing selection
       svg = svg.merge(svgE);
 
-      svg.attr('width', width + margin.left + margin.right);
-      svg.attr('height', height + margin.top + margin.bottom);
+      svg.attr("width", width + margin.left + margin.right);
+      svg.attr("height", height + margin.top + margin.bottom);
 
-      svg.append('g');
-
+      svg.append("g");
 
       // this group element will be used to contain all
       // other elements.
-      g = svg.select('g')
-        .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+      g = svg
+        .select("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
       // perform some preprocessing on raw data
       var wordData = getWords(rawData);
@@ -129,14 +131,18 @@ var scrollVis = function () {
       // bar chart display
       var fillerCounts = groupByWord(fillerWords);
       // set the bar scale's domain
-      var countMax = d3.max(fillerCounts, function (d) { return d.value;});
+      var countMax = d3.max(fillerCounts, function (d) {
+        return d.value;
+      });
       xBarScale.domain([0, countMax]);
 
       // get aggregated histogram data
 
       var histData = getHistogram(fillerWords);
       // set histogram's domain
-      var histMax = d3.max(histData, function (d) { return d.length; });
+      var histMax = d3.max(histData, function (d) {
+        return d.length;
+      });
       yHistScale.domain([0, histMax]);
 
       setupVis(wordData, fillerCounts, histData);
@@ -144,7 +150,6 @@ var scrollVis = function () {
       setupSections();
     });
   };
-
 
   /**
    * setupVis - creates initial elements for all
@@ -157,128 +162,149 @@ var scrollVis = function () {
    */
   var setupVis = function (wordData, fillerCounts, histData) {
     // axis
-    g.append('g')
-      .attr('class', 'x axis')
-      .attr('transform', 'translate(0,' + height + ')')
+    g.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
       .call(xAxisBar);
-    g.select('.x.axis').style('opacity', 0);
+    g.select(".x.axis").style("opacity", 0);
 
     // count openvis title
-    g.append('text')
-      .attr('class', 'title openvis-title')
-      .attr('x', width / 2)
-      .attr('y', height / 3)
-      .text('2013');
+    g.append("text")
+      .attr("class", "title openvis-title")
+      .attr("x", width / 2)
+      .attr("y", height / 3)
+      .text("2013");
 
-    g.append('text')
-      .attr('class', 'sub-title openvis-title')
-      .attr('x', width / 2)
-      .attr('y', (height / 3) + (height / 5))
-      .text('OpenVis Conf');
+    g.append("text")
+      .attr("class", "sub-title openvis-title")
+      .attr("x", width / 2)
+      .attr("y", height / 3 + height / 5)
+      .text("OpenVis Conf");
 
-    g.selectAll('.openvis-title')
-      .attr('opacity', 0);
+    g.selectAll(".openvis-title").attr("opacity", 0);
 
     // count filler word count title
-    g.append('text')
-      .attr('class', 'title count-title highlight')
-      .attr('x', width / 2)
-      .attr('y', height / 3)
-      .text('180');
+    g.append("text")
+      .attr("class", "title count-title highlight")
+      .attr("x", width / 2)
+      .attr("y", height / 3)
+      .text("180");
 
-    g.append('text')
-      .attr('class', 'sub-title count-title')
-      .attr('x', width / 2)
-      .attr('y', (height / 3) + (height / 5))
-      .text('Filler Words');
+    g.append("text")
+      .attr("class", "sub-title count-title")
+      .attr("x", width / 2)
+      .attr("y", height / 3 + height / 5)
+      .text("Filler Words");
 
-    g.selectAll('.count-title')
-      .attr('opacity', 0);
+    g.selectAll(".count-title").attr("opacity", 0);
 
     // square grid
     // @v4 Using .merge here to ensure
     // new and old data have same attrs applied
-    var squares = g.selectAll('.square').data(wordData, function (d) { return d.word; });
-    var squaresE = squares.enter()
-      .append('rect')
-      .classed('square', true);
-    squares = squares.merge(squaresE)
-      .attr('width', squareSize)
-      .attr('height', squareSize)
-      .attr('fill', '#fff')
-      .classed('fill-square', function (d) { return d.filler; })
-      .attr('x', function (d) { return d.x;})
-      .attr('y', function (d) { return d.y;})
-      .attr('opacity', 0);
+    var squares = g.selectAll(".square").data(wordData, function (d) {
+      return d.word;
+    });
+    var squaresE = squares.enter().append("rect").classed("square", true);
+    squares = squares
+      .merge(squaresE)
+      .attr("width", squareSize)
+      .attr("height", squareSize)
+      .attr("fill", "#fff")
+      .classed("fill-square", function (d) {
+        return d.filler;
+      })
+      .attr("x", function (d) {
+        return d.x;
+      })
+      .attr("y", function (d) {
+        return d.y;
+      })
+      .attr("opacity", 0);
 
     // barchart
     // @v4 Using .merge here to ensure
     // new and old data have same attrs applied
-    var bars = g.selectAll('.bar').data(fillerCounts);
-    var barsE = bars.enter()
-      .append('rect')
-      .attr('class', 'bar');
-    bars = bars.merge(barsE)
-      .attr('x', 0)
-      .attr('y', function (d, i) { return yBarScale(i);})
-      .attr('fill', function (d, i) { return barColors[i]; })
-      .attr('width', 0)
-      .attr('height', yBarScale.bandwidth());
+    var bars = g.selectAll(".bar").data(fillerCounts);
+    var barsE = bars.enter().append("rect").attr("class", "bar");
+    bars = bars
+      .merge(barsE)
+      .attr("x", 0)
+      .attr("y", function (d, i) {
+        return yBarScale(i);
+      })
+      .attr("fill", function (d, i) {
+        return barColors[i];
+      })
+      .attr("width", 0)
+      .attr("height", yBarScale.bandwidth());
 
-    var barText = g.selectAll('.bar-text').data(fillerCounts);
-    barText.enter()
-      .append('text')
-      .attr('class', 'bar-text')
-      .text(function (d) { return d.key + '…'; })
-      .attr('x', 0)
-      .attr('dx', 15)
-      .attr('y', function (d, i) { return yBarScale(i);})
-      .attr('dy', yBarScale.bandwidth() / 1.2)
-      .style('font-size', '110px')
-      .attr('fill', 'white')
-      .attr('opacity', 0);
+    var barText = g.selectAll(".bar-text").data(fillerCounts);
+    barText
+      .enter()
+      .append("text")
+      .attr("class", "bar-text")
+      .text(function (d) {
+        return d.key + "…";
+      })
+      .attr("x", 0)
+      .attr("dx", 15)
+      .attr("y", function (d, i) {
+        return yBarScale(i);
+      })
+      .attr("dy", yBarScale.bandwidth() / 1.2)
+      .style("font-size", "110px")
+      .attr("fill", "white")
+      .attr("opacity", 0);
 
     // histogram
     // @v4 Using .merge here to ensure
     // new and old data have same attrs applied
-    var hist = g.selectAll('.hist').data(histData);
-    var histE = hist.enter().append('rect')
-      .attr('class', 'hist');
-    hist = hist.merge(histE).attr('x', function (d) { return xHistScale(d.x0); })
-      .attr('y', height)
-      .attr('height', 0)
-      .attr('width', xHistScale(histData[0].x1) - xHistScale(histData[0].x0) - 1)
-      .attr('fill', barColors[0])
-      .attr('opacity', 0);
+    var hist = g.selectAll(".hist").data(histData);
+    var histE = hist.enter().append("rect").attr("class", "hist");
+    hist = hist
+      .merge(histE)
+      .attr("x", function (d) {
+        return xHistScale(d.x0);
+      })
+      .attr("y", height)
+      .attr("height", 0)
+      .attr(
+        "width",
+        xHistScale(histData[0].x1) - xHistScale(histData[0].x0) - 1
+      )
+      .attr("fill", barColors[0])
+      .attr("opacity", 0);
 
     // cough title
-    g.append('text')
-      .attr('class', 'sub-title cough cough-title')
-      .attr('x', width / 2)
-      .attr('y', 60)
-      .text('cough')
-      .attr('opacity', 0);
+    g.append("text")
+      .attr("class", "sub-title cough cough-title")
+      .attr("x", width / 2)
+      .attr("y", 60)
+      .text("cough")
+      .attr("opacity", 0);
 
     // arrowhead from
     // http://logogin.blogspot.com/2013/02/d3js-arrowhead-markers.html
-    svg.append('defs').append('marker')
-      .attr('id', 'arrowhead')
-      .attr('refY', 2)
-      .attr('markerWidth', 6)
-      .attr('markerHeight', 4)
-      .attr('orient', 'auto')
-      .append('path')
-      .attr('d', 'M 0,0 V 4 L6,2 Z');
+    svg
+      .append("defs")
+      .append("marker")
+      .attr("id", "arrowhead")
+      .attr("refY", 2)
+      .attr("markerWidth", 6)
+      .attr("markerHeight", 4)
+      .attr("orient", "auto")
+      .append("path")
+      .attr("d", "M 0,0 V 4 L6,2 Z");
 
-    g.append('path')
-      .attr('class', 'cough cough-arrow')
-      .attr('marker-end', 'url(#arrowhead)')
-      .attr('d', function () {
-        var line = 'M ' + ((width / 2) - 10) + ' ' + 80;
-        line += ' l 0 ' + 230;
+    g.append("path")
+      .attr("class", "cough cough-arrow")
+      .attr("marker-end", "url(#arrowhead)")
+      .attr("d", function () {
+        var line = "M " + (width / 2 - 10) + " " + 80;
+        line += " l 0 " + 230;
         return line;
       })
-      .attr('opacity', 0);
+      .attr("opacity", 0);
   };
 
   /**
@@ -329,6 +355,17 @@ var scrollVis = function () {
    */
 
   /**
+   * sectionActivate - use data attr
+   *
+   * hides: count title
+   * (no previous step to hide)
+   * shows: intro title
+   *
+   */
+  function sectionActivate(index, progress) {
+    console.log("sectionActivate");
+  }
+  /**
    * showTitle - initial title
    *
    * hides: count title
@@ -337,15 +374,12 @@ var scrollVis = function () {
    *
    */
   function showTitle() {
-    g.selectAll('.count-title')
-      .transition()
-      .duration(0)
-      .attr('opacity', 0);
+    g.selectAll(".count-title").transition().duration(0).attr("opacity", 0);
 
-    g.selectAll('.openvis-title')
+    g.selectAll(".openvis-title")
       .transition()
       .duration(600)
-      .attr('opacity', 1.0);
+      .attr("opacity", 1.0);
   }
 
   /**
@@ -357,20 +391,11 @@ var scrollVis = function () {
    *
    */
   function showFillerTitle() {
-    g.selectAll('.openvis-title')
-      .transition()
-      .duration(0)
-      .attr('opacity', 0);
+    g.selectAll(".openvis-title").transition().duration(0).attr("opacity", 0);
 
-    g.selectAll('.square')
-      .transition()
-      .duration(0)
-      .attr('opacity', 0);
+    g.selectAll(".square").transition().duration(0).attr("opacity", 0);
 
-    g.selectAll('.count-title')
-      .transition()
-      .duration(600)
-      .attr('opacity', 1.0);
+    g.selectAll(".count-title").transition().duration(600).attr("opacity", 1.0);
   }
 
   /**
@@ -382,19 +407,16 @@ var scrollVis = function () {
    *
    */
   function showGrid() {
-    g.selectAll('.count-title')
-      .transition()
-      .duration(0)
-      .attr('opacity', 0);
+    g.selectAll(".count-title").transition().duration(0).attr("opacity", 0);
 
-    g.selectAll('.square')
+    g.selectAll(".square")
       .transition()
       .duration(600)
       .delay(function (d) {
         return 5 * d.row;
       })
-      .attr('opacity', 1.0)
-      .attr('fill', '#ddd');
+      .attr("opacity", 1.0)
+      .attr("fill", "#ddd");
   }
 
   /**
@@ -407,41 +429,36 @@ var scrollVis = function () {
    */
   function highlightGrid() {
     hideAxis();
-    g.selectAll('.bar')
-      .transition()
-      .duration(600)
-      .attr('width', 0);
+    g.selectAll(".bar").transition().duration(600).attr("width", 0);
 
-    g.selectAll('.bar-text')
-      .transition()
-      .duration(0)
-      .attr('opacity', 0);
+    g.selectAll(".bar-text").transition().duration(0).attr("opacity", 0);
 
-
-    g.selectAll('.square')
+    g.selectAll(".square")
       .transition()
       .duration(0)
-      .attr('opacity', 1.0)
-      .attr('fill', '#ddd');
+      .attr("opacity", 1.0)
+      .attr("fill", "#ddd");
 
     // use named transition to ensure
     // move happens even if other
     // transitions are interrupted.
-    g.selectAll('.fill-square')
-      .transition('move-fills')
+    g.selectAll(".fill-square")
+      .transition("move-fills")
       .duration(800)
-      .attr('x', function (d) {
+      .attr("x", function (d) {
         return d.x;
       })
-      .attr('y', function (d) {
+      .attr("y", function (d) {
         return d.y;
       });
 
-    g.selectAll('.fill-square')
+    g.selectAll(".fill-square")
       .transition()
       .duration(800)
-      .attr('opacity', 1.0)
-      .attr('fill', function (d) { return d.filler ? '#008080' : '#ddd'; });
+      .attr("opacity", 1.0)
+      .attr("fill", function (d) {
+        return d.filler ? "#008080" : "#ddd";
+      });
   }
 
   /**
@@ -456,40 +473,45 @@ var scrollVis = function () {
     // ensure bar axis is set
     showAxis(xAxisBar);
 
-    g.selectAll('.square')
-      .transition()
-      .duration(800)
-      .attr('opacity', 0);
+    g.selectAll(".square").transition().duration(800).attr("opacity", 0);
 
-    g.selectAll('.fill-square')
+    g.selectAll(".fill-square")
       .transition()
       .duration(800)
-      .attr('x', 0)
-      .attr('y', function (d, i) {
+      .attr("x", 0)
+      .attr("y", function (d, i) {
         return yBarScale(i % 3) + yBarScale.bandwidth() / 2;
       })
       .transition()
       .duration(0)
-      .attr('opacity', 0);
+      .attr("opacity", 0);
 
-    g.selectAll('.hist')
+    g.selectAll(".hist")
       .transition()
       .duration(600)
-      .attr('height', function () { return 0; })
-      .attr('y', function () { return height; })
-      .style('opacity', 0);
+      .attr("height", function () {
+        return 0;
+      })
+      .attr("y", function () {
+        return height;
+      })
+      .style("opacity", 0);
 
-    g.selectAll('.bar')
+    g.selectAll(".bar")
       .transition()
-      .delay(function (d, i) { return 300 * (i + 1);})
+      .delay(function (d, i) {
+        return 300 * (i + 1);
+      })
       .duration(600)
-      .attr('width', function (d) { return xBarScale(d.value); });
+      .attr("width", function (d) {
+        return xBarScale(d.value);
+      });
 
-    g.selectAll('.bar-text')
+    g.selectAll(".bar-text")
       .transition()
       .duration(600)
       .delay(1200)
-      .attr('opacity', 1);
+      .attr("opacity", 1);
   }
 
   /**
@@ -505,24 +527,24 @@ var scrollVis = function () {
     // switch the axis to histogram one
     showAxis(xAxisHist);
 
-    g.selectAll('.bar-text')
-      .transition()
-      .duration(0)
-      .attr('opacity', 0);
+    g.selectAll(".bar-text").transition().duration(0).attr("opacity", 0);
 
-    g.selectAll('.bar')
-      .transition()
-      .duration(600)
-      .attr('width', 0);
+    g.selectAll(".bar").transition().duration(600).attr("width", 0);
 
     // here we only show a bar if
     // it is before the 15 minute mark
-    g.selectAll('.hist')
+    g.selectAll(".hist")
       .transition()
       .duration(600)
-      .attr('y', function (d) { return (d.x0 < 15) ? yHistScale(d.length) : height; })
-      .attr('height', function (d) { return (d.x0 < 15) ? height - yHistScale(d.length) : 0; })
-      .style('opacity', function (d) { return (d.x0 < 15) ? 1.0 : 1e-6; });
+      .attr("y", function (d) {
+        return d.x0 < 15 ? yHistScale(d.length) : height;
+      })
+      .attr("height", function (d) {
+        return d.x0 < 15 ? height - yHistScale(d.length) : 0;
+      })
+      .style("opacity", function (d) {
+        return d.x0 < 15 ? 1.0 : 1e-6;
+      });
   }
 
   /**
@@ -539,24 +561,25 @@ var scrollVis = function () {
     // ensure the axis to histogram one
     showAxis(xAxisHist);
 
-    g.selectAll('.cough')
-      .transition()
-      .duration(0)
-      .attr('opacity', 0);
+    g.selectAll(".cough").transition().duration(0).attr("opacity", 0);
 
     // named transition to ensure
     // color change is not clobbered
-    g.selectAll('.hist')
-      .transition('color')
+    g.selectAll(".hist")
+      .transition("color")
       .duration(500)
-      .style('fill', '#008080');
+      .style("fill", "#008080");
 
-    g.selectAll('.hist')
+    g.selectAll(".hist")
       .transition()
       .duration(1200)
-      .attr('y', function (d) { return yHistScale(d.length); })
-      .attr('height', function (d) { return height - yHistScale(d.length); })
-      .style('opacity', 1.0);
+      .attr("y", function (d) {
+        return yHistScale(d.length);
+      })
+      .attr("height", function (d) {
+        return height - yHistScale(d.length);
+      })
+      .style("opacity", 1.0);
   }
 
   /**
@@ -572,12 +595,16 @@ var scrollVis = function () {
     // ensure the axis to histogram one
     showAxis(xAxisHist);
 
-    g.selectAll('.hist')
+    g.selectAll(".hist")
       .transition()
       .duration(600)
-      .attr('y', function (d) { return yHistScale(d.length); })
-      .attr('height', function (d) { return height - yHistScale(d.length); })
-      .style('opacity', 1.0);
+      .attr("y", function (d) {
+        return yHistScale(d.length);
+      })
+      .attr("height", function (d) {
+        return height - yHistScale(d.length);
+      })
+      .style("opacity", 1.0);
   }
 
   /**
@@ -588,10 +615,11 @@ var scrollVis = function () {
    *  (xAxisHist or xAxisBar)
    */
   function showAxis(axis) {
-    g.select('.x.axis')
+    g.select(".x.axis")
       .call(axis)
-      .transition().duration(500)
-      .style('opacity', 1);
+      .transition()
+      .duration(500)
+      .style("opacity", 1);
   }
 
   /**
@@ -600,9 +628,7 @@ var scrollVis = function () {
    *
    */
   function hideAxis() {
-    g.select('.x.axis')
-      .transition().duration(500)
-      .style('opacity', 0);
+    g.select(".x.axis").transition().duration(500).style("opacity", 0);
   }
 
   /**
@@ -625,16 +651,13 @@ var scrollVis = function () {
    *  how far user has scrolled in section
    */
   function updateCough(progress) {
-    g.selectAll('.cough')
-      .transition()
-      .duration(0)
-      .attr('opacity', progress);
+    g.selectAll(".cough").transition().duration(0).attr("opacity", progress);
 
-    g.selectAll('.hist')
-      .transition('cough')
+    g.selectAll(".hist")
+      .transition("cough")
       .duration(0)
-      .style('fill', function (d) {
-        return (d.x0 >= 14) ? coughColorScale(progress) : '#008080';
+      .style("fill", function (d) {
+        return d.x0 >= 14 ? coughColorScale(progress) : "#008080";
       });
   }
 
@@ -660,7 +683,7 @@ var scrollVis = function () {
   function getWords(rawData) {
     return rawData.map(function (d, i) {
       // is this word a filler word?
-      d.filler = (d.filler === '1') ? true : false;
+      d.filler = d.filler === "1" ? true : false;
       // time in seconds word was spoken
       d.time = +d.time;
       // time in minutes word was spoken
@@ -684,7 +707,9 @@ var scrollVis = function () {
    * @param data - word data from getWords
    */
   function getFillerWords(data) {
-    return data.filter(function (d) {return d.filler; });
+    return data.filter(function (d) {
+      return d.filler;
+    });
   }
 
   /**
@@ -696,7 +721,9 @@ var scrollVis = function () {
    */
   function getHistogram(data) {
     // only get words from the first 30 minutes
-    var thirtyMins = data.filter(function (d) { return d.min < 30; });
+    var thirtyMins = data.filter(function (d) {
+      return d.min < 30;
+    });
     // bin data into 2 minutes chuncks
     // from 0 - 31 minutes
     // @v4 The d3.histogram() produces a significantly different
@@ -704,9 +731,12 @@ var scrollVis = function () {
     // Take a look at this block:
     // https://bl.ocks.org/mbostock/3048450
     // to inform how you use it. Its different!
-    return d3.histogram()
+    return d3
+      .histogram()
       .thresholds(xHistScale.ticks(10))
-      .value(function (d) { return d.min; })(thirtyMins);
+      .value(function (d) {
+        return d.min;
+      })(thirtyMins);
   }
 
   /**
@@ -717,11 +747,18 @@ var scrollVis = function () {
    * @param words
    */
   function groupByWord(words) {
-    return d3.nest()
-      .key(function (d) { return d.word; })
-      .rollup(function (v) { return v.length; })
+    return d3
+      .nest()
+      .key(function (d) {
+        return d.word;
+      })
+      .rollup(function (v) {
+        return v.length;
+      })
       .entries(words)
-      .sort(function (a, b) {return b.value - a.value;});
+      .sort(function (a, b) {
+        return b.value - a.value;
+      });
   }
 
   /**
@@ -731,7 +768,7 @@ var scrollVis = function () {
    */
   chart.activate = function (index) {
     activeIndex = index;
-    var sign = (activeIndex - lastIndex) < 0 ? -1 : 1;
+    var sign = activeIndex - lastIndex < 0 ? -1 : 1;
     var scrolledSections = d3.range(lastIndex + sign, activeIndex + sign, sign);
     scrolledSections.forEach(function (i) {
       activateFunctions[i]();
@@ -746,13 +783,27 @@ var scrollVis = function () {
    * @param progress
    */
   chart.update = function (index, progress) {
+    // console.log(index, progress);
     updateFunctions[index](progress);
+    var tgt = document.querySelectorAll(".step")[index];
+    var sectionFn = tgt.getAttribute("data-fn");
+    //      <section class="step" data-fn="sectionActivate">
+    // sectionFn(index, progress);
+    // console.log(tgt, sectionFn);
+    // window.sectionFn(1, 2);
+    // var fnstring = "sectionActivate";
+    // var fnparams = [1, 2];
+
+    // // find object
+    // var fn = window[fnstring];
+
+    // // is object a function?
+    // if (typeof fn === "function") fn.apply(null, fnparams);
   };
 
   // return chart function
   return chart;
 };
-
 
 /**
  * display - called once data
@@ -766,31 +817,38 @@ function display(data) {
   // create a new plot and
   // display it
   var plot = scrollVis();
-  d3.select('#vis')
-    .datum(data)
-    .call(plot);
+  d3.select("#vis").datum(data).call(plot);
 
   // setup scroll functionality
-  var scroll = scroller()
-    .container(d3.select('#graphic'));
+  var scroll = scroller().container(d3.select("#graphic"));
 
   // pass in .step selection as the steps
-  scroll(d3.selectAll('.step'));
+  scroll(d3.selectAll(".step"));
 
   // setup event handling
-  scroll.on('active', function (index) {
+  scroll.on("active", function (index) {
     // highlight current step text
-    d3.selectAll('.step')
-      .style('opacity', function (d, i) { return i === index ? 1 : 0.1; });
+    d3.selectAll(".step").style("opacity", function (d, i) {
+      return i === index ? 1 : 0.1;
+    });
+
+    var sections = document.querySelectorAll(".step");
+
+    for (var i = 0; i < sections.length; ++i) {
+      console.log(i, index);
+      i === index
+        ? sections[i].classList.add("cf")
+        : sections[i].classList.remove("cf");
+    }
 
     // activate current section
     plot.activate(index);
   });
 
-  scroll.on('progress', function (index, progress) {
+  scroll.on("progress", function (index, progress) {
     plot.update(index, progress);
   });
 }
 
 // load data and display
-d3.tsv('data/words.tsv', display);
+d3.tsv("data/words.tsv", display);

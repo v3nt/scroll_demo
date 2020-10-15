@@ -11,3 +11,8 @@ If you are looking for the old D3v3 code, check out the [old-d3v3 branch](https:
 Originally, this code was part of a talk given at [OpenVis Conf](http://openvisconf.com/) about scrollytelling.
 
 [Check out the talk and additional materials!](http://vallandingham.me/think_you_can_scroll.html)
+
+previewing locally on macos
+
+Terminal and running
+“python -m SimpleHTTPServer”. Heres a tutorial: http://lifehacker.com/start-a-simple-web-server-from-any-directory-on-your-ma-496425450 <http://lifehacker.com/start-a-simple-web-server-from-any-directory-on-your-ma-496425450>.

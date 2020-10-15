@@ -1,0 +1,2007 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"nav",
+				"nav-link"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"targ",
+				"target_item\tlocal var"
+			],
+			[
+				"get",
+				"getAttribute\twarning"
+			],
+			[
+				"bord",
+				"border-left"
+			],
+			[
+				"cose",
+				"closest\twarning"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"append",
+				"appendChild\tmethod"
+			],
+			[
+				"con",
+				"console\tvar"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"g",
+				"gov-activity"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"carousel",
+				"carousel-indicators"
+			],
+			[
+				"i",
+				"id\tAttr"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"Lan",
+				"LanguageStore"
+			],
+			[
+				"on",
+				"onLanguageChange"
+			],
+			[
+				"fet",
+				"fetchPosts"
+			],
+			[
+				"loc",
+				"loc_ids"
+			],
+			[
+				"found",
+				"found_posts"
+			],
+			[
+				"fora",
+				"foreach\tforeach …"
+			],
+			[
+				"fonts",
+				"font-size-sm"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"parent",
+				"parent_id"
+			],
+			[
+				"query",
+				"query_posts"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"is",
+				"is_array"
+			],
+			[
+				"prni",
+				"print_r"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"glob",
+				"global"
+			],
+			[
+				"isa",
+				"is_array"
+			],
+			[
+				"strt",
+				"strtoupper"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"fig",
+				"figcaption\tTag"
+			],
+			[
+				"li",
+				"list-style-type"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"d",
+				"disc"
+			],
+			[
+				"border-top-",
+				"border-top-width"
+			],
+			[
+				"make",
+				"make-sm-column"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"font-s",
+				"font-size-small"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ou",
+				"outline"
+			],
+			[
+				"font-fa",
+				"font-family-serif"
+			],
+			[
+				"strr",
+				"str_replace"
+			],
+			[
+				"strre",
+				"strreplace"
+			],
+			[
+				"a",
+				"align\tAttr"
+			],
+			[
+				"th",
+				"thead\tTag"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"bott",
+				"bottom"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"gray-light",
+				"gray-lighter"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"wonk",
+				"wonkhe-roots-master"
+			],
+			[
+				"theme",
+				"theme__title"
+			],
+			[
+				"bo",
+				"border-left"
+			],
+			[
+				"meta",
+				"meta__title"
+			],
+			[
+				"pading",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"font-famil",
+				"headings-font-family"
+			],
+			[
+				"bottom",
+				"border-bottom-color"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"pd",
+				"padding-top"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"font-si",
+				"font-size-large"
+			],
+			[
+				"Font",
+				"font-size"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"se",
+				"section\tTag"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"str_r",
+				"str_replace"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"2am",
+				"2am-master"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"gal",
+				"gallery-item--is-project"
+			],
+			[
+				"heading",
+				"headings-font-family-bold"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"padin",
+				"padding"
+			],
+			[
+				"ta",
+				"target\tAttr"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"brand-",
+				"brand-publication"
+			],
+			[
+				"brand",
+				"brand-publication"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"single",
+				"single-staff"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"magin",
+				"margin-right"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"sinlge",
+				"single-publications"
+			],
+			[
+				"sing",
+				"single"
+			],
+			[
+				"h",
+				"href\tAttr"
+			],
+			[
+				"border-bottom",
+				"border-bottom-width"
+			],
+			[
+				"border-b",
+				"border-bottom-style"
+			],
+			[
+				"ar",
+				"article\tTag"
+			],
+			[
+				"boder",
+				"border"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"post_",
+				"post_type"
+			],
+			[
+				"navbar",
+				"navbar-collapse"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/scroller.js",
+			"settings":
+			{
+				"buffer_size": 3426,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/sections.js",
+			"settings":
+			{
+				"buffer_size": 20567,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2751,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/d3.js",
+			"settings":
+			{
+				"buffer_size": 455287,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 14 files for \"cough\"\n\n/Users/danielcrabbe/Sites/tbi-map-timeline/scroll_demo/index.html:\n   39        </section>\n   40        <section class=\"step\">\n   41:         <div class=\"title\">The Cough Effect</div>\n   42:         My theory is that at this critical halfway point in my talk, I heard a dry cough indicative of the audience's waning interest. This caused self-confidence to collapse and forced me out of my groove.<br/><br/>A competing theory is that I just hadn't practiced the last half of my speech as much.\n   43        </section>\n   44        <section class=\"step\">\n\n/Users/danielcrabbe/Sites/tbi-map-timeline/scroll_demo/post.md:\n  311  activateFunctions[5] = showHistPart;\n  312  activateFunctions[6] = showHistAll;\n  313: activateFunctions[7] = showCough;\n  314  activateFunctions[8] = showHistAll;\n  315  ```\n\n/Users/danielcrabbe/Sites/tbi-map-timeline/scroll_demo/css/style.css:\n   72  }\n   73  \n   74: .cough-arrow {\n   75    stroke: #000;\n   76    stroke-width: 4px;\n\n/Users/danielcrabbe/Sites/tbi-map-timeline/scroll_demo/js/sections.js:\n   68    // color value.\n   69    // @v4 using new scale name\n   70:   var coughColorScale = d3.scaleLinear()\n   71      .domain([0, 1.0])\n   72      .range(['#008080', 'red']);\n   ..\n  252        .attr('opacity', 0);\n  253  \n  254:     // cough title\n  255      g.append('text')\n  256:       .attr('class', 'sub-title cough cough-title')\n  257        .attr('x', width / 2)\n  258        .attr('y', 60)\n  259:       .text('cough')\n  260        .attr('opacity', 0);\n  261  \n  ...\n  272  \n  273      g.append('path')\n  274:       .attr('class', 'cough cough-arrow')\n  275        .attr('marker-end', 'url(#arrowhead)')\n  276        .attr('d', function () {\n  ...\n  299      activateFunctions[5] = showHistPart;\n  300      activateFunctions[6] = showHistAll;\n  301:     activateFunctions[7] = showCough;\n  302      activateFunctions[8] = showHistAll;\n  303  \n  ...\n  311        updateFunctions[i] = function () {};\n  312      }\n  313:     updateFunctions[7] = updateCough;\n  314    };\n  315  \n  ...\n  529     * showHistAll - show all histogram\n  530     *\n  531:    * hides: cough title and color\n  532     * (previous step is also part of the\n  533     *  histogram, so we don't have to hide\n  ...\n  540      showAxis(xAxisHist);\n  541  \n  542:     g.selectAll('.cough')\n  543        .transition()\n  544        .duration(0)\n  ...\n  561  \n  562    /**\n  563:    * showCough\n  564     *\n  565     * hides: nothing\n  ...\n  569     *\n  570     */\n  571:   function showCough() {\n  572      // ensure the axis to histogram one\n  573      showAxis(xAxisHist);\n  ...\n  619  \n  620    /**\n  621:    * updateCough - increase/decrease\n  622:    * cough text and color\n  623     *\n  624     * @param progress - 0.0 - 1.0 -\n  625     *  how far user has scrolled in section\n  626     */\n  627:   function updateCough(progress) {\n  628:     g.selectAll('.cough')\n  629        .transition()\n  630        .duration(0)\n  ...\n  632  \n  633      g.selectAll('.hist')\n  634:       .transition('cough')\n  635        .duration(0)\n  636        .style('fill', function (d) {\n  637:         return (d.x0 >= 14) ? coughColorScale(progress) : '#008080';\n  638        });\n  639    }\n\n23 matches across 4 files\n",
+			"settings":
+			{
+				"buffer_size": 3245,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 858,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"renam",
+				"Rename File"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"syntax ejs",
+				"Set Syntax: EJS (<? ?>)"
+			],
+			[
+				"rename",
+				"Rename File"
+			],
+			[
+				"syntax  ejs",
+				"Set Syntax: EJS (<% %>)"
+			],
+			[
+				"setsyntax e",
+				"Set Syntax: EJS (<% %>)"
+			],
+			[
+				"rein",
+				"Preferences: Settings – Syntax Specific"
+			],
+			[
+				"format js",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"prettif",
+				"Preferences: JsPrettier Settings - Default"
+			],
+			[
+				"format",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"form",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"syntax type",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"format jsx",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"for",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"codefor",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"rean",
+				"Rename File"
+			],
+			[
+				"open",
+				"Terminal: Open in project folder"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"format sc",
+				"CodeFormatter: Format as SCSS Syntax"
+			],
+			[
+				"php",
+				"CodeFormatter: Format as PHP Syntax"
+			],
+			[
+				"eslin",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"case",
+				"Convert Case: Lower Case"
+			],
+			[
+				"beaut",
+				"HTMLBeautify"
+			],
+			[
+				"lara",
+				"Set Syntax: Laravel Blade"
+			],
+			[
+				"format html",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"blade",
+				"Set Syntax: Laravel Blade"
+			],
+			[
+				"forma",
+				"CodeFormatter: Format as PHP Syntax"
+			],
+			[
+				"format php",
+				"CodeFormatter: Format as PHP Syntax"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"set",
+				"Set Syntax: PHP"
+			],
+			[
+				"synta",
+				"Set Syntax: PHP"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"set syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"rena",
+				"Rename File"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"save pro",
+				"Project: Save As"
+			],
+			[
+				"togg",
+				"View: Toggle Side Bar"
+			],
+			[
+				"save proj",
+				"Project: Save As"
+			],
+			[
+				"toggle side",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"foramt",
+				"CodeFormatter: Format as PHP Syntax"
+			],
+			[
+				"isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"termi",
+				"Terminal: Open in project folder"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"term",
+				"Terminal: Open in project folder"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"format j",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"t",
+				"Terminal: Open in project folder"
+			],
+			[
+				"in",
+				"Indexing Status"
+			],
+			[
+				"ter",
+				"Terminal: Open in project folder"
+			],
+			[
+				"fo",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"encode",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"convert",
+				"HSL: Convert Selected RGB to HSLA"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"pick",
+				"Color Picker"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/danielcrabbe/Sites/tbi-map-timeline/scroll_demo",
+		"/Users/danielcrabbe/Sites/tbi-map-timeline/scroll_demo/js",
+		"/Users/danielcrabbe/Sites/tbi-map-timeline/scroll_demo/lib"
+	],
+	"file_history":
+	[
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/globals.json",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/scss/common/_variables-spacing.scss",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/views/partials/header.ejs",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/node_modules/bootstrap/scss/_carousel.scss",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/ref/_ref-variables.scss",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/scss/common/_variables.scss",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/tbi-bootstrap.js",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/scss/components/_timeline.scss",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/scss/components/_card.scss",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/package.json",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/scss/components/_carousel.scss",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/index.js",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/views/partials/card.ejs",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/scss/components/_header.scss",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/dist/timeline.html",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/scss/common/_type.scss",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/index.ejs",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/scss/main.scss",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/scss/common/_scroll-effects.scss",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/timeline.ejs",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/scss/common/_mixins.scss",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/views/partials/carousel.ejs",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/readme.md",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/tbi-header.js",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/images/tbi-play-icon.svg",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/webpack.config.dev.js",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/dist/index.html",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/webpack.config.js",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/webpack.config.embed.js",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/node_modules/bootstrap/scss/bootstrap.scss",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/postcss.config.js",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/images/tbi.svg",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/images/govuk.svg",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/scss/common/_fonts.scss",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/fonts/fontslist.txt",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/globals.js",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/imagemin-svgo.js",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/scss/components/_components.scss",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/views/partials/head.ejs",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/node_modules/bootstrap/scss/mixins/_grid.scss",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/node_modules/bootstrap/scss/_grid.scss",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/views/home.ejs",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/render.ts",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/tsconfig.json",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/dist/test.html",
+		"/Users/danielcrabbe/Library/Application Support/Sublime Text 3/Packages/JsPrettier/JsPrettier.sublime-settings",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/test.ejs",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/app.js",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/output.html",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/articles_test.json",
+		"/Users/danielcrabbe/Library/Application Support/Sublime Text 3/Packages/User/CodeFormatter.sublime-settings",
+		"/Users/danielcrabbe/Library/Application Support/Sublime Text 3/Packages/CodeFormatter/CodeFormatter.sublime-settings",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/dist/main.5635377386bfa8eca8c0.css",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/dist/main.5635377386bfa8eca8c0.js",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/dist/main.bc2dbf433a4d5f1269b8.js",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/dist/main.0aa61ce89b5bf6e2d6d1.js",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/dist/main.a01cbb411a2e87aeefee.js",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/dist/main.29b9428cbc73d77723f8.js",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/index.html",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/views/index.ejs",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/index.html",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/dist/index222.html",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/dist/bundle.js",
+		"/Users/danielcrabbe/Sites/tbi/tbi-model-webpack-a/tbi-model-a/src/bar.js",
+		"/Users/danielcrabbe/Sites/tbi/masterEJS/webpack-demo/src/index.ejs",
+		"/Users/danielcrabbe/Sites/tbi/masterEJS/webpack-demo/index.html",
+		"/Users/danielcrabbe/Sites/tbi/masterEJS/webpack-demo/webpack.config.js",
+		"/Users/danielcrabbe/Sites/tbi/masterEJS/webpack-demo/dist/index.js",
+		"/Users/danielcrabbe/Sites/tbi/masterEJS/webpack-demo/dist/index.html",
+		"/Users/danielcrabbe/Sites/tbi/masterEJS/webpack-demo/package.json",
+		"/Users/danielcrabbe/Sites/tbi/masterEJS/webpack-demo/dist/main.js",
+		"/Users/danielcrabbe/Sites/tbi/ejs-demo/views/pages/about.ejs",
+		"/Users/danielcrabbe/Sites/tbi/ejs-demo/webpack.base.config.js",
+		"/Users/danielcrabbe/Sites/tbi/ejs-demo/START_01.md",
+		"/Users/danielcrabbe/Sites/tbi/ejs-demo/package.json",
+		"/Users/danielcrabbe/Sites/tbi/ejs-demo/server.js",
+		"/Users/danielcrabbe/Learning/react/widgets/src/components/Search.js",
+		"/Users/danielcrabbe/Learning/react/widgets/src/index.js",
+		"/Users/danielcrabbe/Learning/react/widgets/public/index.html",
+		"/Users/danielcrabbe/Learning/react/translate/public/index.html",
+		"/Users/danielcrabbe/Learning/react/translate/src/components/Button.js",
+		"/Users/danielcrabbe/Learning/react/translate/src/components/Field.js",
+		"/Users/danielcrabbe/Learning/react/translate/src/contexts/ColorContext.js",
+		"/Users/danielcrabbe/Learning/react/translate/src/contexts/LanguageContext.js",
+		"/Users/danielcrabbe/Learning/react/translate/src/components/UserCreate.js",
+		"/Users/danielcrabbe/Learning/react/translate/src/index.js",
+		"/Users/danielcrabbe/Learning/react/blog/src/reducers/postsReducer.js",
+		"/Users/danielcrabbe/Learning/react/blog/src/components/App.js",
+		"/Users/danielcrabbe/Learning/react/blog/src/apis/jsonPlaceholder.js",
+		"/Users/danielcrabbe/Learning/react/blog/src/notes.js",
+		"/Users/danielcrabbe/Learning/react/blog/src/actions/index.js",
+		"/Users/danielcrabbe/Learning/react/blog/src/components/PostList.js",
+		"/Users/danielcrabbe/Learning/react/blog/node_modules/react-dom/cjs/react-dom.development.js",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/search.blade.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/partials/searchform.blade.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/assets/styles/components/_meta.scss",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/assets/styles/common/_variables.scss",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/assets/styles/layouts/_gallery.scss",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/app/search.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/app/Controllers/Search.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/assets/styles/common/_type.scss",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/partials/search-preview.blade.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/assets/styles/layouts/_taxonomies.scss",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/dist/styles/main.css",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/app/ajax.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/app/Controllers/App.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/assets/styles/layouts/_posts.scss",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/partials/content-location.blade.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/partials/entry-meta-location.blade.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/partials/tags-list.blade.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/app/file-managment.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/app/custom-fields.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/functions.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/taxonomy-location_features.blade.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/partials/taxonomy-item.blade.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/assets/styles/common/_REF_variables_4-5.scss",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/partials/taxonomy-list-item.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/partials/tag-item.blade.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/partials/page-header.blade.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/404.blade.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/layouts/app.blade.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/partials/content.blade.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/index.blade.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/index.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/partials/entry-gallery.blade.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/template-taxonomies.blade.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/app/admin.php",
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/app/setup.php"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 110.0,
+		"where_history":
+		[
+			"*.*"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cough",
+			"min",
+			"step"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/scroller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3400,
+								3400
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/sections.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20567,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6115,
+								6115
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6882.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2751,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								464,
+								464
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/d3.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 455287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								100600,
+								100603
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 71336.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3245,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										197,
+										202
+									],
+									[
+										306,
+										311
+									],
+									[
+										772,
+										777
+									],
+									[
+										929,
+										934
+									],
+									[
+										1141,
+										1146
+									],
+									[
+										1306,
+										1311
+									],
+									[
+										1385,
+										1390
+									],
+									[
+										1391,
+										1396
+									],
+									[
+										1488,
+										1493
+									],
+									[
+										1609,
+										1614
+									],
+									[
+										1615,
+										1620
+									],
+									[
+										1858,
+										1863
+									],
+									[
+										2027,
+										2032
+									],
+									[
+										2136,
+										2141
+									],
+									[
+										2325,
+										2330
+									],
+									[
+										2429,
+										2434
+									],
+									[
+										2527,
+										2532
+									],
+									[
+										2661,
+										2666
+									],
+									[
+										2699,
+										2704
+									],
+									[
+										2861,
+										2866
+									],
+									[
+										2904,
+										2909
+									],
+									[
+										3037,
+										3042
+									],
+									[
+										3151,
+										3156
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								1146,
+								1146
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								858,
+								858
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownHighlighting/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 126.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.paneltranformations":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "",
+	"project": "d3 scroll base.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"glo",
+				"src/globals.json"
+			],
+			[
+				"_time",
+				"src/scss/components/_timeline.scss"
+			],
+			[
+				"boot",
+				"src/tbi-bootstrap.js"
+			],
+			[
+				"_va",
+				"src/scss/common/_variables.scss"
+			],
+			[
+				"header",
+				"src/views/partials/header.ejs"
+			],
+			[
+				"index",
+				"src/index.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"_var",
+				"src/scss/common/_variables-spacing.scss"
+			],
+			[
+				"_carou",
+				"src/scss/components/_carousel.scss"
+			],
+			[
+				"read",
+				"readme.md"
+			],
+			[
+				"timeli",
+				"dist/timeline.html"
+			],
+			[
+				"_card",
+				"src/scss/components/_card.scss"
+			],
+			[
+				"card",
+				"src/views/partials/card.ejs"
+			],
+			[
+				"indx",
+				"src/index.ejs"
+			],
+			[
+				"_typ",
+				"src/scss/common/_type.scss"
+			],
+			[
+				"_head",
+				"src/scss/components/_header.scss"
+			],
+			[
+				"glob",
+				"src/globals.json"
+			],
+			[
+				"_car",
+				"src/scss/components/_card.scss"
+			],
+			[
+				"_tim",
+				"src/scss/components/_timeline.scss"
+			],
+			[
+				"_header",
+				"src/scss/components/_header.scss"
+			],
+			[
+				"_ca",
+				"src/scss/components/_card.scss"
+			],
+			[
+				"main",
+				"src/scss/main.scss"
+			],
+			[
+				"ind",
+				"src/index.ejs"
+			],
+			[
+				"index.",
+				"src/index.js"
+			],
+			[
+				"_eff",
+				"src/scss/common/_scroll-effects.scss"
+			],
+			[
+				"-boo",
+				"src/tbi-bootstrap.js"
+			],
+			[
+				"inde",
+				"src/index.js"
+			],
+			[
+				"car",
+				"src/views/partials/carousel.ejs"
+			],
+			[
+				"head",
+				"src/views/partials/header.ejs"
+			],
+			[
+				"carousel",
+				"src/views/partials/carousel.ejs"
+			],
+			[
+				"tbi-",
+				"src/tbi-bootstrap.js"
+			],
+			[
+				"carou",
+				"src/scss/components/_carousel.scss"
+			],
+			[
+				"time",
+				"src/timeline.ejs"
+			],
+			[
+				"_mi",
+				"src/scss/common/_mixins.scss"
+			],
+			[
+				"tbi-b",
+				"src/tbi-bootstrap.js"
+			],
+			[
+				"_mix",
+				"src/scss/common/_mixins.scss"
+			],
+			[
+				"_ref",
+				"src/ref/_ref-variables.scss"
+			],
+			[
+				"_h",
+				"src/scss/components/_header.scss"
+			],
+			[
+				"tim",
+				"src/timeline.ejs"
+			],
+			[
+				"_type",
+				"src/scss/common/_type.scss"
+			],
+			[
+				"_timeline",
+				"src/scss/components/_timeline.scss"
+			],
+			[
+				"_t",
+				"src/scss/components/_timeline.scss"
+			],
+			[
+				"eff",
+				"src/scss/common/_scroll-effects.scss"
+			],
+			[
+				"dev.",
+				"webpack.config.dev.js"
+			],
+			[
+				"gl",
+				"src/globals.json"
+			],
+			[
+				"_varia",
+				"src/ref/_ref-variables.scss"
+			],
+			[
+				"web",
+				"webpack.config.dev.js"
+			],
+			[
+				"webpa",
+				"webpack.config.js"
+			],
+			[
+				"html",
+				"dist/index.html"
+			],
+			[
+				"index.html",
+				"dist/index.html"
+			],
+			[
+				"webpack",
+				"webpack.config.js"
+			],
+			[
+				"wep",
+				"webpack.config.embed.js"
+			],
+			[
+				"_variab",
+				"src/scss/common/_variables.scss"
+			],
+			[
+				"_hed",
+				"src/scss/components/_header.scss"
+			],
+			[
+				"_vari",
+				"src/scss/common/_variables.scss"
+			],
+			[
+				"webp",
+				"webpack.config.embed.js"
+			],
+			[
+				"webpac",
+				"webpack.config.dev.js"
+			],
+			[
+				"po",
+				"postcss.config.js"
+			],
+			[
+				"mai",
+				"src/scss/main.scss"
+			],
+			[
+				"_hea",
+				"src/scss/components/_header.scss"
+			],
+			[
+				"timeline",
+				"dist/timeline.html"
+			],
+			[
+				"_timeli",
+				"src/scss/components/_timeline.scss"
+			],
+			[
+				"font",
+				"src/fonts/fontslist.txt"
+			],
+			[
+				"carous",
+				"src/views/partials/carousel.ejs"
+			],
+			[
+				"carouse",
+				"src/views/partials/carousel.ejs"
+			],
+			[
+				"gloab",
+				"src/globals.js"
+			],
+			[
+				"we",
+				"webpack.config.js"
+			],
+			[
+				"bar",
+				"src/bar.js"
+			],
+			[
+				"_spacing",
+				"src/scss/common/_variables-spacing.scss"
+			],
+			[
+				"main.",
+				"src/scss/main.scss"
+			],
+			[
+				"_variable",
+				"src/scss/common/_variables.scss"
+			],
+			[
+				"index.js",
+				"src/index.js"
+			],
+			[
+				"test.ejs",
+				"test.ejs"
+			],
+			[
+				"test.",
+				"dist/test.html"
+			],
+			[
+				".dev",
+				"webpack.config.dev.js"
+			],
+			[
+				"com",
+				"src/scss/components/components.scss"
+			],
+			[
+				"head.ejs",
+				"src/views/partials/head.ejs"
+			],
+			[
+				"index.ejs",
+				"src/views/index.ejs"
+			],
+			[
+				"sear",
+				"src/components/Search.js"
+			],
+			[
+				"field",
+				"src/components/Field.js"
+			],
+			[
+				"b",
+				"src/components/Button.js"
+			],
+			[
+				"langua",
+				"src/contexts/LanguageContext.js"
+			],
+			[
+				"butt",
+				"src/components/Button.js"
+			],
+			[
+				"fiel",
+				"src/components/Field.js"
+			],
+			[
+				"fie",
+				"src/components/field.js"
+			],
+			[
+				"user",
+				"src/components/userCreate.js"
+			],
+			[
+				"app",
+				"src/components/App.js"
+			],
+			[
+				"post",
+				"src/components/PostList.js"
+			],
+			[
+				"search",
+				"resources/views/partials/searchform.blade.php"
+			],
+			[
+				"_tax",
+				"resources/assets/styles/layouts/_taxonomies.scss"
+			],
+			[
+				"_met",
+				"resources/assets/styles/components/_meta.scss"
+			],
+			[
+				"_gal",
+				"resources/assets/styles/layouts/_gallery.scss"
+			],
+			[
+				"searc",
+				"resources/views/search.blade.php"
+			],
+			[
+				"ajax",
+				"app/ajax.php"
+			],
+			[
+				"preview",
+				"resources/views/partials/search-preview.blade.php"
+			],
+			[
+				"tags-list",
+				"resources/views/partials/tags-list.blade.php"
+			],
+			[
+				"entry-meta-location",
+				"resources/views/partials/entry-meta-location.blade.php"
+			],
+			[
+				"conent",
+				"resources/views/partials/content-location.blade.php"
+			],
+			[
+				"file",
+				"app/file-managment.php"
+			],
+			[
+				"content-lo",
+				"resources/views/partials/content-location.blade.php"
+			],
+			[
+				"taxonomy-item",
+				"resources/views/partials/taxonomy-item.blade.php"
+			],
+			[
+				"taxon",
+				"resources/views/partials/taxonomy-list-item.php"
+			],
+			[
+				"tag",
+				"resources/views/partials/tag-item.blade.php"
+			],
+			[
+				"function",
+				"resources/functions.php"
+			],
+			[
+				"page-",
+				"resources/views/partials/page-header.blade.php"
+			],
+			[
+				"content",
+				"resources/views/partials/content.blade.php"
+			],
+			[
+				"content-",
+				"resources/views/partials/content-location.blade.php"
+			],
+			[
+				"custom",
+				"app/custom-fields.php"
+			],
+			[
+				"fig",
+				"resources/views/partials/figure.blade.php"
+			],
+			[
+				"entry-gallery",
+				"resources/views/partials/entry-gallery.blade.php"
+			],
+			[
+				"_post",
+				"resources/assets/styles/layouts/_posts.scss"
+			],
+			[
+				"_butt",
+				"resources/assets/styles/components/_buttons.scss"
+			],
+			[
+				"sea",
+				"app/search.php"
+			],
+			[
+				"_page",
+				"resources/assets/styles/layouts/_pages.scss"
+			],
+			[
+				"_fo",
+				"resources/assets/styles/layouts/_footer.scss"
+			],
+			[
+				"page",
+				"resources/views/partials/content-page.blade.php"
+			],
+			[
+				"_foot",
+				"resources/assets/styles/layouts/_footer.scss"
+			],
+			[
+				"main.js",
+				"resources/assets/scripts/main.js"
+			],
+			[
+				"comm",
+				"resources/assets/scripts/routes/common.js"
+			],
+			[
+				"searchform",
+				"resources/views/partials/searchform.blade.php"
+			],
+			[
+				"stylelintrc",
+				".stylelintrc.js"
+			],
+			[
+				"readm",
+				"README.md"
+			],
+			[
+				"_REF",
+				"resources/assets/styles/common/_REF_variables_4-5.scss"
+			],
+			[
+				"foot",
+				"resources/views/partials/footer.blade.php"
+			],
+			[
+				"_foo",
+				"resources/assets/styles/layouts/_footer.scss"
+			],
+			[
+				"gall",
+				"resources/views/partials/entry-gallery.blade.php"
+			],
+			[
+				"common",
+				"resources/assets/scripts/routes/common.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "tb",
+		"selected_items":
+		[
+			[
+				"tb",
+				"~/Sites/tbi/mbi-timeline-model/TBI model.sublime-workspace"
+			],
+			[
+				"model",
+				"~/Sites/tbi/mbi-timeline-model/TBI model.sublime-workspace"
+			],
+			[
+				"song",
+				"~/Learning/react/songs/react redux songs.sublime-project"
+			],
+			[
+				"son",
+				"~/Learning/react/songs/react redux songs.sublime-project"
+			],
+			[
+				"sd",
+				"~/Projects/SD engineers/website/sd-structures-website/sitecontent/wp-content/themes/sd-theme-2018/SD theme (freshin).sublime-project"
+			],
+			[
+				"ssv",
+				"~/Projects/Sound Space Vision/website/ssv-wordpress-master/wp-content/themes/ssv-sage-85-theme/SSV theme sage 85.sublime-project"
+			],
+			[
+				"peno",
+				"~/Projects/566_Penoyre & Prasad LLP/website/wordpress/wp-content/themes/pap_02/penoyre prasad theme old.sublime-project"
+			],
+			[
+				"pen",
+				"~/Projects/566_Penoyre & Prasad LLP/website/wordpress/wp-content/themes/pap_02/penoyre prasad theme old.sublime-project"
+			],
+			[
+				"green",
+				"~/Projects/Greengage/web/greengageweb2016/wp-content/themes/greengage-sage/Greengage theme SAGE.sublime-project"
+			],
+			[
+				"greeng",
+				"~/Projects/Greengage/web/greengageweb2016/wp-content/themes/greengage-theme/greengage theme.sublime-workspace"
+			],
+			[
+				"gr",
+				"~/Projects/Greengage/web/greengageweb2016/Greengage WP root.sublime-project"
+			],
+			[
+				"am",
+				"~/Projects/612 AMPC/website/ampc-wordpress-master/ampc-theme.sublime-project"
+			],
+			[
+				"ampc",
+				"~/Projects/612 AMPC/website/ampc-wordpress-master/ampc.sublime-project"
+			],
+			[
+				"aba",
+				"~/Projects/419_ABA/abaweb/wp-content/themes/aba-master/aba-master.sublime-project"
+			],
+			[
+				"refor",
+				"~/Projects/634 Reform Architects/website/reform-website-master/reform.sublime-project"
+			],
+			[
+				"2",
+				"~/Projects/500_2AM/web/2amweb2014/wp-content/themes/2am-master/2am-master.sublime-project"
+			],
+			[
+				"2a",
+				"~/Projects/500_2AM/web/2amweb2014/wp-content/themes/2am-master/2am-master.sublime-project"
+			],
+			[
+				"fe",
+				"~/Projects/632 Feel Films/web/feelweb14/wp-content/themes/feel-roots-theme/feel-films.sublime-project"
+			],
+			[
+				"wo",
+				"~/Projects/630_Wonkhe/web/wonkheweb/wp-content/themes/wonkhe-roots-master/wonkhe-roots-master.sublime-workspace"
+			],
+			[
+				"",
+				"~/Projects/632 Feel Films/web/feelweb14/wp-content/themes/feel-roots-theme/feel theme.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
