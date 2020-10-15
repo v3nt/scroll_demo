@@ -835,7 +835,7 @@ function display(data) {
     var sections = document.querySelectorAll(".step");
 
     for (var i = 0; i < sections.length; ++i) {
-      console.log(i, index);
+      // console.log(i, index);
       i === index
         ? sections[i].classList.add("cf")
         : sections[i].classList.remove("cf");
