@@ -472,47 +472,28 @@
 	"buffers":
 	[
 		{
-			"file": "js/scroller.js",
+			"file": "/Users/danielcrabbe/Sites/tbi-map-timeline/d3-wp-babel/package.json",
 			"settings":
 			{
-				"buffer_size": 3431,
+				"buffer_size": 924,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "README.md",
+			"file": "/Users/danielcrabbe/Sites/tbi-map-timeline/d3-wp-babel/src/app.js",
 			"settings":
 			{
-				"buffer_size": 858,
+				"buffer_size": 121,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "js/sections.js",
+			"file": "/Users/danielcrabbe/Sites/tbi-map-timeline/d3-wp-babel/webpack.config.js",
 			"settings":
 			{
-				"buffer_size": 21738,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Searching 15 files for \"position()\"\n\n/Users/danielcrabbe/Sites/tbi-map-timeline/scroll_demo/post.md:\n  143  \n  144  ```js\n  145: function position() {\n  146    var pos = window.pageYOffset - 10;\n  147    var sectionIndex = d3.bisect(sectionPositions, pos);\n\n/Users/danielcrabbe/Sites/tbi-map-timeline/scroll_demo/js/scroller.js:\n   56      // function - so here we stop it explicitly.\n   57      var timer = d3.timer(function () {\n   58:       position();\n   59        timer.stop();\n   60      });\n   ..\n   91     *\n   92     */\n   93:   function position() {\n   94      var pos = window.pageYOffset - 10 - containerStart;\n   95      var sectionIndex = d3.bisect(sectionPositions, pos);\n\n3 matches across 2 files\n",
-			"settings":
-			{
-				"buffer_size": 713,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 3361,
+				"buffer_size": 725,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -838,9 +819,9 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/danielcrabbe/Sites/tbi-map-timeline/scroll_demo",
-		"/Users/danielcrabbe/Sites/tbi-map-timeline/scroll_demo/js",
-		"/Users/danielcrabbe/Sites/tbi-map-timeline/scroll_demo/lib"
+		"/Users/danielcrabbe/Sites/tbi-map-timeline/d3-wp-babel",
+		"/Users/danielcrabbe/Sites/tbi-map-timeline/d3-wp-babel/lib",
+		"/Users/danielcrabbe/Sites/tbi-map-timeline/d3-wp-babel/src"
 	],
 	"file_history":
 	[
@@ -982,8 +963,6 @@
 		"height": 110.0,
 		"where_history":
 		[
-			"",
-			"*.*"
 		]
 	},
 	"find_state":
@@ -991,29 +970,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"position()",
-			"position() ",
-			"update",
-			"d3",
-			"data",
-			"scrollVis",
-			"list",
-			"selectAll",
-			"style",
-			"opacity",
-			"chart",
-			"activate",
-			"updateFunctions",
-			"setupSections",
-			"activateFunctions",
-			"class=\"step\"",
-			"activateFunctions",
-			"</section>",
-			"showCough",
-			"step",
-			"cough",
-			"min",
-			"step"
+			"lib"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1031,59 +988,16 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "js/scroller.js",
+					"file": "/Users/danielcrabbe/Sites/tbi-map-timeline/d3-wp-babel/package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3431,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								177,
-								177
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": true,
-								"indentSize": 2,
-								"tabSize": 2
-							},
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 858,
+						"buffer_size": 924,
 						"regions":
 						{
 						},
@@ -1096,7 +1010,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/MarkdownHighlighting/Markdown.sublime-syntax"
+							"syntax": "Packages/Theme - Seti Monokai/icons/Langs/npm JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1106,20 +1022,49 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "js/sections.js",
+					"buffer": 1,
+					"file": "/Users/danielcrabbe/Sites/tbi-map-timeline/d3-wp-babel/src/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 21738,
+						"buffer_size": 121,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20597,
-								20597
+								121,
+								121
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/danielcrabbe/Sites/tbi-map-timeline/d3-wp-babel/webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								724,
+								724
 							]
 						],
 						"settings":
@@ -1128,61 +1073,6 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 14654.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 713,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										138,
-										148
-									],
-									[
-										444,
-										454
-									],
-									[
-										547,
-										557
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								248,
-								248
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1194,39 +1084,8 @@
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 4,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3361,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3320,
-								3328
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1253,19 +1112,12 @@
 				0,
 				2,
 				1
-			],
-			[
-				2,
-				0,
-				3,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.33,
-			0.66,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1292,7 +1144,7 @@
 		"height": 126.0
 	},
 	"pinned_build_system": "",
-	"project": "d3 scroll base.sublime-project",
+	"project": "d3 wp babel setup.sublime-project",
 	"replace":
 	{
 		"height": 52.0
