@@ -1,5 +1,9 @@
 import _ from "lodash";
 import "./scss/main.scss";
+import "./css/style.css";
+import "bootstrap";
+
+import d3 from "d3";
 
 function component() {
   const element = document.createElement("div");

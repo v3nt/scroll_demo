@@ -1,3 +1,5 @@
+console.log("sections loaded");
+
 /**
  * scrollVis - encapsulates
  * all the code for the visualization

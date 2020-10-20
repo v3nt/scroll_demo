@@ -1,5 +1,7 @@
 import _ from "lodash";
 import d3 from "d3";
+import "./js/scroller.js";
+import "./js/sections.js";
 
 function component() {
   const element = document.createElement("div");
