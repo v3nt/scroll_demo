@@ -1,12 +1,20 @@
 ## D3 Scrollytelling Demo
 
+Configured to work with Webpack and multiple js files. Libraries updated.
+
+`npm start`
+
+### Others
+
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "start": "webpack-dev-server --config webpack.config.dev.js  --progress --watch",
+
 Example code of how you might make a basic scrollytelling site using [D3](https://d3js.org/).
 
 [Demo Here](http://vallandingham.me/scroll_demo/).
 
-This code has been **updated to use D3v4**.
-
-If you are looking for the old D3v3 code, check out the [old-d3v3 branch](https://github.com/vlandham/scroll_demo/tree/old-d3v3) of this repository.
+This code has been **updated to use D3v6**.
 
 Originally, this code was part of a talk given at [OpenVis Conf](http://openvisconf.com/) about scrollytelling.
 
