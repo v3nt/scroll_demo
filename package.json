@@ -1,6 +1,6 @@
 {
   "name": "scroll_demo",
-  "version": "1.0.0",
+  "version": "1.0.0-base",
   "private": true,
   "description": "Example code of how you might make a basic scrollytelling site using [D3](https://d3js.org/).",
   "main": "./src/app.js",
