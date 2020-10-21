@@ -1,5 +1,7 @@
 import * as d3 from "d3";
-// import scrollVis2 from "./scroller.js";
+import { nest } from "d3-collection";
+import * as d3Collection from "d3-collection";
+import { scroller } from "./scroller.js";
 
 console.log("sections loaded");
 
@@ -13,7 +15,7 @@ export function Init(param) {
  * using reusable charts pattern:
  * http://bost.ocks.org/mike/chart/
  */
-var scrollVis = function () {
+export const scrollVis = function () {
   // constants to define the size
   // and margins of the vis area.
   var width = 600;
@@ -756,7 +758,7 @@ var scrollVis = function () {
    * @param words
    */
   function groupByWord(words) {
-    return d3
+    return d3Collection
       .nest()
       .key(function (d) {
         return d.word;
@@ -823,7 +825,7 @@ var scrollVis = function () {
  * @param data - loaded tsv data
  */
 export function display(data) {
-  console.log("display(data) ", data);
+  console.log("display(data) ");
   // create a new plot and
   // display it
   var plot = scrollVis();

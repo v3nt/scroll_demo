@@ -1,6 +1,6 @@
 import _ from "lodash";
 import * as d3 from "d3";
-import scrollVis2 from "./js/scroller.js";
+
 import { Init, display } from "./js/sections.js";
 // window.display = display;
 window.d3 = d3;
@@ -29,7 +29,7 @@ window.onload = function () {
   d3.tsv("./data/words.tsv").then((data) => {
     console.log("tsv data loaded");
     var thanksCSV = data;
-    console.log(data);
+
     for (var i = 0; i < data.length; i++) {
       // console.log(data[i].word);
       // console.log(data[i].time);
